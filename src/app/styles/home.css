@@ -1456,6 +1456,11 @@ p.foo-text {
         padding-top: 32px;
         padding-bottom: 46px;
     }
+    .our-customers .btn-flex {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
     /* customer section close here */
 
     /* testimonial section start here */
