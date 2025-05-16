@@ -78,14 +78,14 @@ const Footer = () => {
                                 <li>
                                     <Link href="mailto:info@parnasyom.com">Info@parnasyom.com</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="tel:7738979316">(773) 897-9316</Link>
-                                </li>
+                                </li> */}
                             </ul>
-                            <ul className="foo-social-links">
+                            {/* <ul className="foo-social-links">
                                 <li><Link href="#" target="_blank"><img src="/images/Facebook-icon.svg" alt="Facebook Icon" /></Link></li>
                                 <li><Link href="#" target="_blank"><img src="/images/Linkedin-icon.svg" alt="Linkedin Icon" /></Link></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>

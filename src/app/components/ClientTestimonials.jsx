@@ -77,7 +77,7 @@ const ClientTestimonials = () => {
             <div className="cus-container">
                 <div className="title-header">
                     <h2>What Our Partners Say</h2>
-                    <p>Helping communities grow—one dedication at a time. Here’s how organizations have benefitted from ParnasYom’s effortless and impactful solution.</p>
+                    <p>Helping Mosdos grow—one dedication at a time. Here’s how organizations have benefitted from ParnasYom’s effortless and impactful solution.</p>
                 </div>
                 <div className="client-testimonial-hoder">
                 <Swiper

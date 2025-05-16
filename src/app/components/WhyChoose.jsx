@@ -9,7 +9,7 @@ const WhyUs = [
         text: "Customized webpage and message reflecting your identity."
     },
     {
-        img: "/images/user-friendly-icon.svg",
+        img: "/images/happy-user-icon.svg",
         title: "User-friendly",
         text: "Easy calendar shows open dates and previews messages on screen."
     },
@@ -31,7 +31,7 @@ const WhyUs = [
     {
         img: "/images/legacy-icon.svg",
         title: "Legacy building",
-        text: "It's not just a donation - it's a lasting legacy for your community."
+        text: "It's not just a donation - its a lasting legacy for your community."
     }
 ]
 
@@ -42,7 +42,7 @@ const WhyChoose = () => {
                 <div className="cus-row">
                     <div className="col-40" id="fixed-target">
                         <div className="why-choose-img" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-                            <img src="/images/why-choose-image.jpg" alt="Why choose image" />
+                            <img src="/images/features-image.jpg" alt="Why choose image" />
                         </div>
                     </div>
                     <div className="col-60 why-content">

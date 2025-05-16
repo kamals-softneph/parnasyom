@@ -3,24 +3,24 @@ import Link from "next/link";
 
 const linksData = [
     {
-      href: '#',
+      href: '/cma',
       imgSrc: '/images/Chicago-Mikwah.png',
       label: 'cma',
     },
     {
-      href: '#',
+      href: '/ccmikvah',
       imgSrc: '/images/Cleveland-Community-Mikwah.png',
       label: 'ccmikvah',
     },
     {
-        href: '#',
-        imgSrc: '/images/Chicago-Mikwah.png',
+        href: '/skokiekeilim',
+        imgSrc: '/images/customer-logo.jpg',
         label: 'skokiekeilimmikvah',
     },
     {
-        href: '#',
-        imgSrc: '/images/Chicago-Mikwah.png',
-        label: 'bmtt',
+        href: '/bmtt',
+        // imgSrc: '/images/Chicago-Mikwah.png',
+        label: 'skokie keilim mikvah',
     },
 ];
 
@@ -31,7 +31,7 @@ const OurCustomers = () => {
                 <div className="cus-row">
                     <div className="col-50 customers-left-col">
                         <h2>A quick look at some live samples of ParnaYom in action </h2>
-                        <p>Select the organization where you'd like to make a dedication </p>
+                        {/* <p>Select the organization where you'd like to make a dedication </p> */}
                         <div className="btn-flex">
                             <Link href="#" className="cus-btn btn-main">Get Started </Link>
                             <Link href="#contact" className="cus-btn btn-white">Contact Us </Link>

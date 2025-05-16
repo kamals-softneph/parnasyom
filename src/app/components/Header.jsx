@@ -18,7 +18,7 @@ const mainnav = [
         navlink: "#why-choose",
     },
     {
-        navtext: "Testimonial",
+        navtext: "Testimonials",
         navlink: "#testimonials",
     },
     {
@@ -59,7 +59,7 @@ const Header = () => {
     return (
         <header className={`site-header ${isSticky ? 'she-header' : ''}`}>
             <div className="top-header">
-                <p>Empower your community with a custom digital dedication and donation platform. <Link href="#">Get Started</Link> </p>
+                <p>Tap into the power of automatic recurring Parnas Hayom dedications with a custom website and digital screen. <Link href="#">Get Started</Link> </p>
             </div>
             <div className={`bottom-header ${navActive ? 'nav-active' : ''}`}>
                 <div className="cus-container">

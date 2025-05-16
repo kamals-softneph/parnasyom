@@ -97,6 +97,8 @@ ul.main-nav {
     font-size: 18px;
     font-weight: 500;
     transition: .4s;
+    font-family: 'Futura PT Medium';
+    white-space: nowrap;
 }
 a.header-logo {
     display: flex;
@@ -276,6 +278,7 @@ img.computer-frame-image {
     display: inline-block;
     font-size: 18px;
     letter-spacing: .5px;
+    font-family: 'Futura PT Medium';
 }
 .btn-main {
     background: #C8ACA8;
@@ -296,7 +299,7 @@ img.computer-frame-image {
     border-color: white;
 } 
 .hero-banner p strong {
-    font-weight: 600;
+    font-family: 'Futura PT Demi';
 }
 .btn-dark {
     background: #22223A;
@@ -594,8 +597,11 @@ h2 {
     padding-right: 25px;
 }
 .our-customers .btn-flex {
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 15px;
+}
+.customers-flex-row a:last-child img {
+    display: none;
 }
 /* Our customers section close here */
 
@@ -761,9 +767,10 @@ p.testimonial-text::-webkit-scrollbar-thumb:hover {
     border: 1px solid #ffffff59 !important;
     outline: none !important;
     transition: .4s;
+    font-family: 'Futura PT Book';
 }
 .dubmit-btn button {
-    font-family: "Futura PT", sans-serif !important;
+    font-family: "Futura PT Medium", sans-serif !important;
     line-height: 26px;
     cursor: pointer;
 }
