@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 
 
+
 const dedicationItems = [
   "Personalized systems for each organization",
   "Increase annual giving through recurring dedications",
@@ -20,17 +21,17 @@ const dedicationItems = [
 const Home = () => {
   return (
     <main className="main-index main-homepage">
+      
         <Header />
-
-        <HeroBanner />
-        <Dedications items={dedicationItems} />
-        <HowItWorks />
-        <WhyChoose />
-        <OurCustomers />
-        <ClientTestimonials />
-        <ContactUs />
-
+          <HeroBanner />
+          <Dedications items={dedicationItems} />
+          <HowItWorks />
+          <WhyChoose />
+          <OurCustomers />
+          <ClientTestimonials />
+          <ContactUs />
         <Footer />
+      
     </main>
   )
 }

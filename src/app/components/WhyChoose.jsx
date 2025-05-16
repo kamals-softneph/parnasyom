@@ -40,8 +40,8 @@ const WhyChoose = () => {
         <section className="why-choose" id="why-choose">
             <div className="cus-container">
                 <div className="cus-row">
-                    <div className="col-40">
-                        <div className="why-choose-img">
+                    <div className="col-40" id="fixed-target">
+                        <div className="why-choose-img" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
                             <img src="/images/why-choose-image.jpg" alt="Why choose image" />
                         </div>
                     </div>

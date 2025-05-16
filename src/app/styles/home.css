@@ -1,43 +1,46 @@
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicExtraBold.ttf);
-    font-weight: 900;
+    font-family: 'Futura PT Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Book'), url('/fonts/futura-pt/FuturaCyrillicBook.woff') format('woff');
 }
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicBold.ttf);
-    font-weight: 800;
+    font-family: 'Futura PT Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Light'), url('/fonts/futura-pt/FuturaCyrillicLight.woff') format('woff');
 }
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicHeavy.ttf);
-    font-weight: 700;
+    font-family: 'Futura PT Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Medium'), url('/fonts/futura-pt/FuturaCyrillicMedium.woff') format('woff');
 }
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicDemi.ttf);
-    font-weight: 600;
+    font-family: 'Futura PT Demi';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Demi'), url('/fonts/futura-pt/FuturaCyrillicDemi.woff') format('woff');
 }
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicMedium.ttf);
-    font-weight: 500;
+    font-family: 'Futura PT Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Heavy'), url('/fonts/futura-pt/FuturaCyrillicHeavy.woff') format('woff');
 }
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicBook.ttf);
-    font-weight: 500;
+    font-family: 'Futura PT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Bold'), url('/fonts/futura-pt/FuturaCyrillicBold.woff') format('woff');
 }
 @font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicBook.ttf);
-    font-weight: 400;
+    font-family: 'Futura PT Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Extra Bold'), url('/fonts/futura-pt/FuturaCyrillicExtraBold.woff') format('woff');
 }
-@font-face {
-    font-family: "Futura PT", sans-serif;
-    src: url(/public/fonts/futura-pt/FuturaCyrillicLight.ttf);
-    font-weight: 300;
-}
+
 html {
     scroll-behavior: smooth;
 }
@@ -47,12 +50,13 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: "Futura PT" !important;
+    font-family: 'Futura PT Book', sans-serif !important;
     font-size: 20px;
     line-height: 26px;
 }
 h1, h2, h3, h4, h5, h6, strong, b {
     font-weight: 700;
+    font-family: 'Futura PT Heavy', sans-serif !important;
 }
 
 /* Header start here */
