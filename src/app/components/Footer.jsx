@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 const foonav = [
     {
         foolinktext: "Our Customers",
-        foolink: "#",
+        foolink: "/campaigns",
     },
     {
         foolinktext: "How it Works",

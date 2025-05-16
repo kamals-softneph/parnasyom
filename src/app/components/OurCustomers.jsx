@@ -33,7 +33,7 @@ const OurCustomers = () => {
                         <h2>A quick look at some live samples of ParnaYom in action </h2>
                         {/* <p>Select the organization where you'd like to make a dedication </p> */}
                         <div className="btn-flex">
-                            <Link href="#" className="cus-btn btn-main">Get Started </Link>
+                            <Link href="/campaigns" className="cus-btn btn-main">Get Started </Link>
                             <Link href="#contact" className="cus-btn btn-white">Contact Us </Link>
                         </div>
                     </div>

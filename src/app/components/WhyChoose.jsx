@@ -65,7 +65,7 @@ const WhyChoose = () => {
                             ))}
                             </div>
                             <div className="btn-flex">
-                                <Link href="#" className="cus-btn btn-main">Get Started </Link>
+                                <Link href="/campaigns" className="cus-btn btn-main">Get Started </Link>
                                 <Link href="#contact" className="cus-btn btn-dark">Contact Us </Link>
                             </div>
                         </div>

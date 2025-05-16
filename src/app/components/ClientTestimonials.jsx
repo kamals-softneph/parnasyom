@@ -125,7 +125,7 @@ const ClientTestimonials = () => {
                
                 </div>
                 <div className="btn-flex btn-center">
-                    <Link href="#" className="cus-btn btn-main">Get Started </Link>
+                    <Link href="/campaigns" className="cus-btn btn-main">Get Started </Link>
                     <Link href="#contact" className="cus-btn btn-dark">Contact Us </Link>
                 </div>
             </div>

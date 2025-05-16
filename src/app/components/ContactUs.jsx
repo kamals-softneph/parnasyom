@@ -42,19 +42,17 @@ const ContactUs = () => {
                             <textarea name="message"placeholder="Message"requiredrows={5}></textarea>
                         </div>
                     </div>
-                    <div className="form-row-wrapper g-recaptcha-main">
-                        <div className="col-full">
-                              <ReCAPTCHA
-                                    sitekey="6LfewzwrAAAAABb2-n0Z6ZEHkDgmhETUaB61aBq3"  // Replace this!
-                                    onChange={(token) => setCaptchaToken(token)}
-                                />
+                    <div className="form-bottom-action-wrapp">
+                        <div className="g-recaptcha-main">
+                            <ReCAPTCHA
+                                sitekey="6LfewzwrAAAAABb2-n0Z6ZEHkDgmhETUaB61aBq3"  // Replace this!
+                                onChange={(token) => setCaptchaToken(token)}
+                            />
                         </div>
-                    </div>
-                    <div className="form-row-wrapper">
                         <div className="col-full dubmit-btn">                        
                             <button type="submit" className="cus-btn btn-main"> Submit Now </button>
                         </div>
-                    </div>      
+                    </div>
                 </form>
             </div>
         </section>

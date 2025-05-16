@@ -59,7 +59,7 @@ const Header = () => {
     return (
         <header className={`site-header ${isSticky ? 'she-header' : ''}`}>
             <div className="top-header">
-                <p>Tap into the power of automatic recurring Parnas Hayom dedications with a custom website and digital screen. <Link href="#">Get Started</Link> </p>
+                <p>Tap into the power of automatic recurring Parnas Hayom dedications with a custom website and digital screen. <Link href="#contact">Get Started</Link> </p>
             </div>
             <div className={`bottom-header ${navActive ? 'nav-active' : ''}`}>
                 <div className="cus-container">
@@ -83,7 +83,7 @@ const Header = () => {
                                 </ul>
                             </div>
                             <div className="right-btn">
-                                <Link href="#" className="cus-btn btn-main"><span className="hide-on-sm">Our</span> Customers</Link>
+                                <Link href="/campaigns" className="cus-btn btn-main"><span className="hide-on-sm">Our</span> Customers</Link>
                             </div>
                         </div>
                     </div>

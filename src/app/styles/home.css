@@ -204,6 +204,7 @@ to {
 }
 .right-btn a.cus-btn {
     padding: 10.5px 23px;
+    white-space: nowrap;
 }
 /* Header close here */
 
@@ -798,6 +799,16 @@ p.testimonial-text::-webkit-scrollbar-thumb:hover {
 }
 .dubmit-btn {
     text-align: center;
+}
+.form-bottom-action-wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+.col-full.dubmit-btn {
+    width: max-content;
 }
 /* contact section close here */
 
@@ -1539,6 +1550,21 @@ p.foo-text {
     .contact-section {
         padding-top: 30px;
         padding-bottom: 35px;
+    }
+    .form-bottom-action-wrapp {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+    }
+    .g-recaptcha-main div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .g-recaptcha-main {
+        transform: scale(.8);
+        transform-origin: top center;
+        margin-bottom: -20px;
     }
     /* contact section close here */
 
