@@ -20,7 +20,7 @@ const WhyUs = [
     },
     {
         img: "/images/turnkey-icon.svg",
-        title: "Compounded sponsors",
+        title: "Turnkey operation",
         text: "Get started today with a digital screen and custom website."
     },
     {

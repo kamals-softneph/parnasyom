@@ -83,7 +83,7 @@ const Header = () => {
                                 </ul>
                             </div>
                             <div className="right-btn">
-                                <Link href="/campaigns" className="cus-btn btn-main"><span className="hide-on-sm">Our</span> Customers</Link>
+                                <Link href="#samples" className="cus-btn btn-main"><span className="hide-on-sm">Live</span> Samples</Link>
                             </div>
                         </div>
                     </div>

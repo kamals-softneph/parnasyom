@@ -26,7 +26,7 @@ const linksData = [
 
 const OurCustomers = () => {
     return (
-        <section className="our-customers">
+        <section className="our-customers" id="samples">
             <div className="cus-container">
                 <div className="cus-row">
                     <div className="col-50 customers-left-col">
