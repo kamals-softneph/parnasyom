@@ -30,7 +30,7 @@ const OurCustomers = () => {
             <div className="cus-container">
                 <div className="cus-row">
                     <div className="col-50 customers-left-col">
-                        <h2>A quick look at some live samples of ParnaYom in action </h2>
+                        <h2>A quick look at some live samples of ParnasYom in action </h2>
                         {/* <p>Select the organization where you'd like to make a dedication </p> */}
                         <div className="btn-flex">
                             <Link href="/campaigns" className="cus-btn btn-main">Get Started </Link>
