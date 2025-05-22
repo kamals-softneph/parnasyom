@@ -16,7 +16,7 @@ const HeroBanner = () => {
                     <div className="col-50 hero-img-col">
                         <div className="hero-img-wrapper">
                             <img src="/images/computer-frame.png" className="computer-frame-image" alt="Computer Frame"/>
-                            <img src="/images/hero-image-gif.gif" className="hero-banner-img" alt="Hero banner image" />
+                            <img src="/images/hero-image.jpg" className="hero-banner-img" alt="Hero banner image" />
                         </div>
                     </div>
                 </div>
