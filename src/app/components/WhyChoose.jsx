@@ -42,7 +42,7 @@ const WhyChoose = () => {
                 <div className="cus-row">
                     <div className="col-40" id="fixed-target">
                         <div className="why-choose-img" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-                            <img src="/images/features-image.jpg" alt="Why choose image" />
+                            <img src="/images/ParnasYom-Image.gif" alt="Why choose image" />
                         </div>
                     </div>
                     <div className="col-60 why-content">

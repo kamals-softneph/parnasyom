@@ -5,22 +5,22 @@ const linksData = [
     {
       href: '/cma',
       imgSrc: '/images/Chicago-Mikwah.png',
-      label: 'cma',
+    //   label: 'cma',
     },
     {
       href: '/ccmikvah',
       imgSrc: '/images/Cleveland-Community-Mikwah.png',
-      label: 'ccmikvah',
+    //   label: 'ccmikvah',
     },
     {
         href: '/skokiekeilim',
         imgSrc: '/images/customer-logo.jpg',
-        label: 'skokiekeilimmikvah',
+        // label: 'skokiekeilimmikvah',
     },
     {
         href: '/bmtt',
         // imgSrc: '/images/Chicago-Mikwah.png',
-        label: 'skokie keilim mikvah',
+        label: 'Skokie Keilim Mikvah',
     },
 ];
 
